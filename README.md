@@ -1,2 +1,2 @@
 # SiasaFiti
-AI-powered Civic Education App for Kenya
+A Kenyan AI-powered Civic Education App.
