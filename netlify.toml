@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NEXT_PUBLIC_SUPABASE_URL = "https://brxpbhsuzqorjonwpspb.supabase.co"
+  NEXT_PUBLIC_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJyeHBiaHN1enFvcmpvbndwc3BiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE1Nzc1NjcsImV4cCI6MjA2NzE1MzU2N30.wCE7vOiWbAofeBl5QiKB4f2Jq8gsrT-C1wy945gS1kg"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
