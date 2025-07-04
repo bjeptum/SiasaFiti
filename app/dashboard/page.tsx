@@ -2,7 +2,6 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
-import Link from "next/link";
 
 export default function Dashboard() {
   return (
@@ -17,7 +16,7 @@ export default function Dashboard() {
               Welcome back, Student! 👋
             </h1>
             <p className="text-lg text-gray-600">
-              Continue your civic education journey. You're making great progress!
+              Continue your civic education journey. You&apos;re making great progress!
             </p>
           </div>
 
@@ -54,7 +53,7 @@ export default function Dashboard() {
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Constitution Quiz</h3>
                 <p className="text-sm text-gray-600 mb-4">
-                  Test your knowledge of Kenya's Constitution
+                  Test your knowledge of Kenya&apos;s Constitution
                 </p>
                 <Button size="sm" className="w-full">
                   Start Quiz
@@ -67,7 +66,7 @@ export default function Dashboard() {
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Budget Challenge</h3>
                 <p className="text-sm text-gray-600 mb-4">
-                  Allocate your county's annual budget
+                  Allocate your county&apos;s annual budget
                 </p>
                 <Button variant="secondary" size="sm" className="w-full">
                   Try Simulation
